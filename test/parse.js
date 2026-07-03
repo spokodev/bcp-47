@@ -1,3 +1,7 @@
+/**
+ * @import {Warning} from '../index.js'
+ */
+
 import assert from 'node:assert/strict'
 import test from 'node:test'
 import {parse} from '../index.js'
@@ -106,14 +110,15 @@ test('.parse()', async function (t) {
       'should return `null`'
     )
 
-    function warning() {
+    /** @type {Warning} */
+    function warning(...parameters) {
       assert.equal(
-        arguments[0],
+        parameters[0],
         'Too long variant, expected at most 8 characters'
       )
-      assert.equal(arguments[1], 1)
-      assert.equal(arguments[2], 14)
-      assert.equal(arguments.length, 3)
+      assert.equal(parameters[1], 1)
+      assert.equal(parameters[2], 14)
+      assert.equal(parameters.length, 3)
     }
 
     assert.deepEqual(
@@ -152,14 +157,15 @@ test('.parse()', async function (t) {
       'should return `null`'
     )
 
-    function warning() {
+    /** @type {Warning} */
+    function warning(...parameters) {
       assert.equal(
-        arguments[0],
+        parameters[0],
         'Too many extended language subtags, expected at most 3 subtags'
       )
-      assert.equal(arguments[1], 3)
-      assert.equal(arguments[2], 14)
-      assert.equal(arguments.length, 3)
+      assert.equal(parameters[1], 3)
+      assert.equal(parameters[2], 14)
+      assert.equal(parameters.length, 3)
     }
 
     assert.deepEqual(
@@ -198,14 +204,15 @@ test('.parse()', async function (t) {
       'should return `null`'
     )
 
-    function warning() {
+    /** @type {Warning} */
+    function warning(...parameters) {
       assert.equal(
-        arguments[0],
+        parameters[0],
         'Too long extension, expected at most 8 characters'
       )
-      assert.equal(arguments[1], 2)
-      assert.equal(arguments[2], 13)
-      assert.equal(arguments.length, 3)
+      assert.equal(parameters[1], 2)
+      assert.equal(parameters[2], 13)
+      assert.equal(parameters.length, 3)
     }
 
     assert.deepEqual(
@@ -244,14 +251,15 @@ test('.parse()', async function (t) {
       'should return `null`'
     )
 
-    function warning() {
+    /** @type {Warning} */
+    function warning(...parameters) {
       assert.equal(
-        arguments[0],
+        parameters[0],
         'Empty extension, extensions must have at least 2 characters of content'
       )
-      assert.equal(arguments[1], 4)
-      assert.equal(arguments[2], 4)
-      assert.equal(arguments.length, 3)
+      assert.equal(parameters[1], 4)
+      assert.equal(parameters[2], 4)
+      assert.equal(parameters.length, 3)
     }
 
     assert.deepEqual(
@@ -290,14 +298,15 @@ test('.parse()', async function (t) {
       'should return `null`'
     )
 
-    function warning() {
+    /** @type {Warning} */
+    function warning(...parameters) {
       assert.equal(
-        arguments[0],
+        parameters[0],
         'Too long private-use area, expected at most 8 characters'
       )
-      assert.equal(arguments[1], 5)
-      assert.equal(arguments[2], 13)
-      assert.equal(arguments.length, 3)
+      assert.equal(parameters[1], 5)
+      assert.equal(parameters[2], 13)
+      assert.equal(parameters.length, 3)
     }
 
     assert.deepEqual(
@@ -336,11 +345,12 @@ test('.parse()', async function (t) {
       'should return `null`'
     )
 
-    function warning() {
-      assert.equal(arguments[0], 'Found superfluous content after tag')
-      assert.equal(arguments[1], 6)
-      assert.equal(arguments[2], 0)
-      assert.equal(arguments.length, 3)
+    /** @type {Warning} */
+    function warning(...parameters) {
+      assert.equal(parameters[0], 'Found superfluous content after tag')
+      assert.equal(parameters[1], 6)
+      assert.equal(parameters[2], 0)
+      assert.equal(parameters.length, 3)
     }
 
     assert.deepEqual(
