@@ -338,7 +338,7 @@ See [How to Contribute to Open Source][contribute].
 
 [size-badge]: https://img.shields.io/bundlephobia/minzip/bcp-47.svg
 
-[spec]: https://tools.ietf.org/rfc/bcp/bcp47.html
+[spec]: https://www.rfc-editor.org/info/bcp47/
 
 [typescript]: https://www.typescriptlang.org
 
