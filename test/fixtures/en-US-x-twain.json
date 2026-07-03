@@ -1,11 +1,11 @@
 {
-  "language": "en",
   "extendedLanguageSubtags": [],
-  "script": null,
-  "region": "US",
-  "variants": [],
   "extensions": [],
-  "privateuse": ["twain"],
   "irregular": null,
-  "regular": null
+  "language": "en",
+  "privateuse": ["twain"],
+  "region": "US",
+  "regular": null,
+  "script": null,
+  "variants": []
 }

@@ -1,16 +1,16 @@
 {
-  "language": "en",
   "extendedLanguageSubtags": [],
-  "script": null,
-  "region": "US",
-  "variants": [],
   "extensions": [
     {
-      "singleton": "u",
-      "extensions": ["islamcal"]
+      "extensions": ["islamcal"],
+      "singleton": "u"
     }
   ],
-  "privateuse": [],
   "irregular": null,
-  "regular": null
+  "language": "en",
+  "privateuse": [],
+  "region": "US",
+  "regular": null,
+  "script": null,
+  "variants": []
 }

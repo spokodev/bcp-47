@@ -1,11 +1,11 @@
 {
-  "language": "de",
   "extendedLanguageSubtags": [],
-  "script": null,
-  "region": "CH",
-  "variants": [],
   "extensions": [],
-  "privateuse": ["phonebk"],
   "irregular": null,
-  "regular": null
+  "language": "de",
+  "privateuse": ["phonebk"],
+  "region": "CH",
+  "regular": null,
+  "script": null,
+  "variants": []
 }

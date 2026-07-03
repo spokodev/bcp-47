@@ -1,11 +1,11 @@
 {
-  "language": "az",
   "extendedLanguageSubtags": [],
-  "script": "Arab",
-  "region": null,
-  "variants": [],
   "extensions": [],
-  "privateuse": ["AZE", "derbend"],
   "irregular": null,
-  "regular": null
+  "language": "az",
+  "privateuse": ["AZE", "derbend"],
+  "region": null,
+  "regular": null,
+  "script": "Arab",
+  "variants": []
 }

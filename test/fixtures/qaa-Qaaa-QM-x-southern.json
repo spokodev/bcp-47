@@ -1,11 +1,11 @@
 {
-  "language": "qaa",
   "extendedLanguageSubtags": [],
-  "script": "Qaaa",
-  "region": "QM",
-  "variants": [],
   "extensions": [],
-  "privateuse": ["southern"],
   "irregular": null,
-  "regular": null
+  "language": "qaa",
+  "privateuse": ["southern"],
+  "region": "QM",
+  "regular": null,
+  "script": "Qaaa",
+  "variants": []
 }

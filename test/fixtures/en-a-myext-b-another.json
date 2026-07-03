@@ -1,20 +1,20 @@
 {
-  "language": "en",
   "extendedLanguageSubtags": [],
-  "script": null,
-  "region": null,
-  "variants": [],
   "extensions": [
     {
-      "singleton": "a",
-      "extensions": ["myext"]
+      "extensions": ["myext"],
+      "singleton": "a"
     },
     {
-      "singleton": "b",
-      "extensions": ["another"]
+      "extensions": ["another"],
+      "singleton": "b"
     }
   ],
-  "privateuse": [],
   "irregular": null,
-  "regular": null
+  "language": "en",
+  "privateuse": [],
+  "region": null,
+  "regular": null,
+  "script": null,
+  "variants": []
 }

@@ -1,11 +1,11 @@
 {
-  "language": "sr",
   "extendedLanguageSubtags": [],
-  "script": "Cyrl",
-  "region": null,
-  "variants": [],
   "extensions": [],
-  "privateuse": [],
   "irregular": null,
-  "regular": null
+  "language": "sr",
+  "privateuse": [],
+  "region": null,
+  "regular": null,
+  "script": "Cyrl",
+  "variants": []
 }

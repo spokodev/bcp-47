@@ -1,11 +1,11 @@
 {
-  "language": "zh",
   "extendedLanguageSubtags": ["cmn"],
-  "script": "Hans",
-  "region": "CN",
-  "variants": [],
   "extensions": [],
-  "privateuse": [],
   "irregular": null,
-  "regular": null
+  "language": "zh",
+  "privateuse": [],
+  "region": "CN",
+  "regular": null,
+  "script": "Hans",
+  "variants": []
 }

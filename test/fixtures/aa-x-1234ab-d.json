@@ -1,11 +1,11 @@
 {
-  "language": "aa",
   "extendedLanguageSubtags": [],
-  "script": null,
-  "region": null,
-  "variants": [],
   "extensions": [],
-  "privateuse": ["1234ab", "d"],
   "irregular": null,
-  "regular": null
+  "language": "aa",
+  "privateuse": ["1234ab", "d"],
+  "region": null,
+  "regular": null,
+  "script": null,
+  "variants": []
 }

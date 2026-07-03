@@ -1,11 +1,11 @@
 {
-  "language": "ar",
   "extendedLanguageSubtags": ["afb"],
-  "script": null,
-  "region": null,
-  "variants": [],
   "extensions": [],
-  "privateuse": [],
   "irregular": null,
-  "regular": null
+  "language": "ar",
+  "privateuse": [],
+  "region": null,
+  "regular": null,
+  "script": null,
+  "variants": []
 }

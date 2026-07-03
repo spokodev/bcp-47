@@ -1,11 +1,11 @@
 {
-  "language": "cmn",
   "extendedLanguageSubtags": [],
-  "script": "Hans",
-  "region": "CN",
-  "variants": [],
   "extensions": [],
-  "privateuse": [],
   "irregular": null,
-  "regular": null
+  "language": "cmn",
+  "privateuse": [],
+  "region": "CN",
+  "regular": null,
+  "script": "Hans",
+  "variants": []
 }

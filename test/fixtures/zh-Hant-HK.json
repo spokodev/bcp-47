@@ -1,11 +1,11 @@
 {
-  "language": "zh",
   "extendedLanguageSubtags": [],
-  "script": "Hant",
-  "region": "HK",
-  "variants": [],
   "extensions": [],
-  "privateuse": [],
   "irregular": null,
-  "regular": null
+  "language": "zh",
+  "privateuse": [],
+  "region": "HK",
+  "regular": null,
+  "script": "Hant",
+  "variants": []
 }

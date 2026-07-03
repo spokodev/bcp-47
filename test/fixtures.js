@@ -5,6 +5,7 @@
 import assert from 'node:assert/strict'
 import fs from 'node:fs/promises'
 import path from 'node:path'
+import process from 'node:process'
 import test from 'node:test'
 import {isHidden} from 'is-hidden'
 import {parse, stringify} from '../index.js'
@@ -22,10 +23,16 @@ test('fixtures', async function () {
     const filename = applicable[index]
     const tag = path.basename(filename, path.extname(filename))
     const actual = parse(tag, {normalize: false})
+    const url = new URL(filename, base)
     /** @type {Schema} */
-    const expected = JSON.parse(
-      String(await fs.readFile(new URL(filename, base)))
-    )
+    let expected
+
+    if ('UPDATE' in process.env) {
+      expected = actual
+      await fs.writeFile(url, JSON.stringify(expected, undefined, 2) + '\n')
+    } else {
+      expected = JSON.parse(String(await fs.readFile(url)))
+    }
 
     assert.deepEqual(actual, expected, 'should parse `' + tag + '`')
     assert.equal(stringify(actual), tag, 'should stringify `' + tag + '`')

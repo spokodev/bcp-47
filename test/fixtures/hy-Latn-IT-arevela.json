@@ -1,11 +1,11 @@
 {
-  "language": "hy",
   "extendedLanguageSubtags": [],
-  "script": "Latn",
-  "region": "IT",
-  "variants": ["arevela"],
   "extensions": [],
-  "privateuse": [],
   "irregular": null,
-  "regular": null
+  "language": "hy",
+  "privateuse": [],
+  "region": "IT",
+  "regular": null,
+  "script": "Latn",
+  "variants": ["arevela"]
 }

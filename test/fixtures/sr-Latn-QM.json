@@ -1,11 +1,11 @@
 {
-  "language": "sr",
   "extendedLanguageSubtags": [],
-  "script": "Latn",
-  "region": "QM",
-  "variants": [],
   "extensions": [],
-  "privateuse": [],
   "irregular": null,
-  "regular": null
+  "language": "sr",
+  "privateuse": [],
+  "region": "QM",
+  "regular": null,
+  "script": "Latn",
+  "variants": []
 }

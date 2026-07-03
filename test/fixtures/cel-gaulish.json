@@ -1,11 +1,11 @@
 {
-  "language": null,
   "extendedLanguageSubtags": [],
-  "script": null,
-  "region": null,
-  "variants": [],
   "extensions": [],
-  "privateuse": [],
   "irregular": null,
-  "regular": "cel-gaulish"
+  "language": null,
+  "privateuse": [],
+  "region": null,
+  "regular": "cel-gaulish",
+  "script": null,
+  "variants": []
 }

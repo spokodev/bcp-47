@@ -1,11 +1,11 @@
 {
-  "language": "az",
   "extendedLanguageSubtags": [],
-  "script": "Latn",
-  "region": null,
-  "variants": [],
   "extensions": [],
-  "privateuse": [],
   "irregular": null,
-  "regular": null
+  "language": "az",
+  "privateuse": [],
+  "region": null,
+  "regular": null,
+  "script": "Latn",
+  "variants": []
 }

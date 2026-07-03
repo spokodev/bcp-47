@@ -1,16 +1,16 @@
 {
-  "language": "aaa",
   "extendedLanguageSubtags": ["bbb", "ccc", "ddd"],
-  "script": "abcd",
-  "region": "123",
-  "variants": ["abc123", "0abc"],
   "extensions": [
     {
-      "singleton": "b",
-      "extensions": ["01", "abc123"]
+      "extensions": ["01", "abc123"],
+      "singleton": "b"
     }
   ],
-  "privateuse": ["01ab", "abc12"],
   "irregular": null,
-  "regular": null
+  "language": "aaa",
+  "privateuse": ["01ab", "abc12"],
+  "region": "123",
+  "regular": null,
+  "script": "abcd",
+  "variants": ["abc123", "0abc"]
 }
