@@ -12,5 +12,5 @@
     "types": ["node"]
   },
   "exclude": ["coverage/", "node_modules/"],
-  "include": ["**/*.js"],
+  "include": ["**/*.js"]
 }
