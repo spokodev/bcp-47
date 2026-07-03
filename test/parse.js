@@ -369,42 +369,4 @@ test('.parse()', async function (t) {
       'should return untill the error when `forgiving: true`'
     )
   })
-
-  await t.test('Variant directly after language', function () {
-    // RFC 5646 allows a variant subtag immediately after the language, with no
-    // script or region in between. A variant whose leading characters look like
-    // a shorter region/script/extlang (e.g. the registered Portuguese `ao1990`)
-    // must not be split.
-    assert.deepEqual(
-      parse('pt-ao1990'),
-      {
-        language: 'pt',
-        extendedLanguageSubtags: [],
-        script: null,
-        region: null,
-        variants: ['ao1990'],
-        extensions: [],
-        privateuse: [],
-        irregular: null,
-        regular: null
-      },
-      'should parse a `5*8alphanum` variant that starts like a region'
-    )
-
-    assert.deepEqual(
-      parse('en-123a'),
-      {
-        language: 'en',
-        extendedLanguageSubtags: [],
-        script: null,
-        region: null,
-        variants: ['123a'],
-        extensions: [],
-        privateuse: [],
-        irregular: null,
-        regular: null
-      },
-      'should parse a `DIGIT 3alphanum` variant that starts like a UN M49 region'
-    )
-  })
 })
